@@ -10,3 +10,44 @@ INSERT INTO 'job_data' (ds,job_id,actor_id,event,language,time_spent,org) VALUES
  ('2020-11-26','23','1004','skip','Persian','56','A'), 
  ('2020-11-25','20','1003','transfer','Italian','45','C');
  
+ select 
+count(job_id)/(30*24) as num_jobs_reviewed
+from job_data
+where 
+ds between "2020-11-01" and "2020-11-30";
+
+
+
+select ds,
+jobs_reviewed,
+avg(jobs_reviewed)over(order by ds rows between 6 preceding and current row) as rolling_average
+from
+(select ds,
+count(distinct job_id) as jobs_reviewed
+from
+job_data
+where ds between "2020-11-01" and "2020-11-30"
+group by ds
+order by ds
+)a;
+
+
+
+select language,
+num_jobs,
+100*(num_jobs/total_jobs) as pct_share
+from
+(select 
+ds,
+language,
+count(job_id) as num_jobs
+from job_data
+group by language)a
+cross join(select count(job_id) as total_jobs from job_data)b;
+
+ 
+ 
+ select *,count (*)
+from job_data
+GROUP BY job_id,language
+HAVING COUNT(*) > 1
