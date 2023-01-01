@@ -1,0 +1,7197 @@
+/* CREATE TABLE */
+CREATE TABLE IF NOT EXISTS email_events(
+  user_id INT(11), 
+  occurred_at VARCHAR(100), 
+  action VARCHAR(100), 
+  user_type DECIMAL(10, 2)
+);
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-06-03 9:30:25', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-06-10 9:30:24', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-06-17 9:30:23', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-07-29 9:30:35', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-08-19 9:30:38', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    0, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-05-13 9:30:34', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-05-13 9:31:07', 'email_clickthrough', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-05-20 9:30:25', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-05-20 9:31:00', 'email_clickthrough', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-06-24 9:30:41', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-06-24 9:31:06', 'email_clickthrough', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-07-01 9:30:20', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-07-01 9:30:41', 'email_clickthrough', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-08-12 9:30:27', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    4, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-06-03 9:30:38', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-07-08 9:30:35', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-07-29 9:30:27', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-07-29 9:30:53', 'email_clickthrough', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    8, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-06-10 9:30:21', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-06-17 9:30:21', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-06-17 9:30:53', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-07-08 9:30:33', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-07-29 9:30:37', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-07-29 9:31:04', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    11, '2014-08-26 9:30:29', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-05-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-05-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-05-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-05-21 9:30:28', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-05-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-06-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-06-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-06-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-06-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-07-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-07-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-07-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-07-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-07-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-07-30 9:30:34', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-07-30 9:31:07', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-08-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-08-06 9:30:47', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-08-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-08-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-08-20 9:30:31', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    17, '2014-08-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-05-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-05-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-05-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-05-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-06-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-06-04 9:30:36', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-06-04 9:30:59', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-06-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-06-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-06-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-07-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-07-02 9:30:26', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-07-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-07-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-07-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-07-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-08-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-08-06 9:30:33', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-08-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-08-13 9:30:33', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-08-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-08-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    19, '2014-08-27 9:30:30', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-05-07 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-05-14 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-05-21 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-05-28 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-06-04 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-06-11 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-06-11 9:30:30', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-06-18 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-06-18 9:30:29', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-06-18 9:30:59', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-06-25 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-06-25 9:30:44', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-07-02 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-07-09 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-07-09 9:30:32', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-07-09 9:30:56', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-07-16 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-07-23 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-07-23 9:30:26', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-07-30 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-07-30 9:30:28', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-08-06 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-08-13 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-08-20 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-08-20 9:30:39', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-08-20 9:31:09', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-08-27 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    20, '2014-08-27 9:30:23', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-05-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-05-07 9:30:30', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-05-07 9:30:44', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-05-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-05-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-05-21 9:30:22', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-05-21 9:30:42', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-05-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-05-28 9:30:32', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-06-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-06-04 9:30:30', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-06-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-06-11 9:30:33', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-06-11 9:31:00', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-06-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-06-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-07-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-07-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-07-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-07-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-07-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-08-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-08-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-08-13 9:30:23', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-08-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-08-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    22, '2014-08-27 9:30:41', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-05-01 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-05-08 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-05-15 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-05-22 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-05-22 9:30:27', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-05-29 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-05-29 9:30:37', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-06-05 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-06-12 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-06-19 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-06-19 9:30:27', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-06-19 9:30:53', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-06-26 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-07-03 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-07-10 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-07-17 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-07-17 9:30:22', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-07-24 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-07-31 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-08-07 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-08-14 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-08-14 9:30:36', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-08-21 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-08-21 9:30:18', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    30, '2014-08-28 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-05-05 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-05-05 9:30:37', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-05-12 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-05-19 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-05-26 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-06-02 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-06-02 9:30:26', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-06-02 9:30:47', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-06-09 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-06-16 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-06-23 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-06-30 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-07-07 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-07-14 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-07-21 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-07-21 9:30:34', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-07-28 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-07-28 9:30:28', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-08-04 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-08-04 9:30:17', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-08-11 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-08-18 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    49, '2014-08-25 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-05-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-05-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-05-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-05-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-05-26 9:30:24', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-06-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-06-02 9:30:34', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-06-02 9:31:05', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-06-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-06-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-06-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-06-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-07-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-07-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-07-14 9:30:31', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-07-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-07-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-08-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-08-04 9:30:40', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-08-04 9:31:10', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-08-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-08-11 9:30:31', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-08-11 9:31:02', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-08-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    59, '2014-08-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-05-05 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-05-12 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-05-19 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-05-26 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-06-02 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-06-09 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-06-16 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-06-23 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-06-23 9:30:35', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-06-23 9:30:58', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-06-30 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-06-30 9:30:28', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-07-07 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-07-07 9:30:29', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-07-07 9:30:59', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-07-14 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-07-14 9:30:32', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-07-21 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-07-28 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-07-28 9:30:23', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-08-04 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-08-11 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-08-18 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    64, '2014-08-25 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-05-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-05-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-05-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-05-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-06-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-06-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-06-09 9:30:35', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-06-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-06-16 9:30:33', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-06-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-06-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-07-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-07-07 9:30:28', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-07-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-07-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-07-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-07-28 9:30:37', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-08-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-08-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-08-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-08-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    66, '2014-08-25 9:30:32', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-05-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-05-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-05-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-05-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-05-26 9:30:32', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-06-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-06-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-06-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-06-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-06-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-06-30 9:30:32', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-07-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-07-07 9:30:26', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-07-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-07-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-07-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-08-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-08-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-08-11 9:30:29', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-08-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-08-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    67, '2014-08-25 9:30:33', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-05-20 9:30:31', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-06-17 9:30:31', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-06-17 9:31:00', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-07-08 9:30:27', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-07-22 9:30:14', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-07-22 9:30:49', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-07-29 9:30:31', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-07-29 9:31:18', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-08-12 9:30:25', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-08-19 9:30:27', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-08-19 9:31:02', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    78, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-05-13 9:30:22', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-05-13 9:30:39', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-05-20 9:30:31', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-05-27 9:30:28', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-07-08 9:30:28', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-07-29 9:30:26', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-08-05 9:30:33', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-08-05 9:31:01', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-08-19 9:30:34', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    80, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-05-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-05-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-05-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-05-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-06-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-06-04 9:30:22', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-06-04 9:30:49', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-06-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-06-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-06-18 9:30:34', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-06-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-06-25 9:30:22', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-07-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-07-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-07-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-07-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-07-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-08-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-08-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-08-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-08-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    83, '2014-08-27 9:30:44', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-05-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-05-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-05-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-05-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-05-28 9:30:35', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-05-28 9:31:04', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-06-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-06-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-06-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-06-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-06-25 9:30:28', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-07-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-07-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-07-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-07-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-07-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-08-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-08-06 9:30:18', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-08-06 9:30:43', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-08-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-08-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-08-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-08-27 9:30:26', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    86, '2014-08-27 9:31:02', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-05-01 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-05-08 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-05-08 9:30:28', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-05-15 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-05-22 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-05-22 9:30:32', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-05-29 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-06-05 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-06-12 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-06-19 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-06-19 9:30:26', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-06-19 9:30:47', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-06-26 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-06-26 9:30:35', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-07-03 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-07-10 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-07-10 9:30:28', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-07-17 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-07-24 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-07-31 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-08-07 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-08-07 9:30:22', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-08-14 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-08-21 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-08-21 9:30:27', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-08-21 9:30:58', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    98, '2014-08-28 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-05-01 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-05-08 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-05-08 9:30:40', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-05-08 9:30:54', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-05-15 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-05-22 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-05-29 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-06-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-06-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-06-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-06-19 9:30:28', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-06-19 9:30:44', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-06-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-07-03 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-07-03 9:30:31', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-07-10 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-07-17 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-07-17 9:30:34', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-07-24 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-07-24 9:30:36', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-07-31 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-07-31 9:30:40', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-07-31 9:31:16', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-08-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-08-07 9:30:28', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-08-07 9:30:55', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-08-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-08-14 9:30:28', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-08-14 9:31:00', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-08-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-08-21 9:30:46', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-08-21 9:31:10', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    101, '2014-08-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-05-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-05-02 9:30:38', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-05-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-05-09 9:30:38', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-05-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-05-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-05-23 9:30:38', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-05-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-06-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-06-06 9:30:32', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-06-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-06-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-06-20 9:30:32', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-06-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-07-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-07-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-07-11 9:30:24', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-07-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-07-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-08-01 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-08-01 9:30:36', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-08-08 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-08-15 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-08-15 9:30:45', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-08-22 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    108, '2014-08-29 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-05-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-05-05 9:30:40', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-05-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-05-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-05-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-06-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-06-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-06-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-06-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-06-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-07-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-07-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-07-14 9:30:31', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-07-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-07-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-07-28 9:30:35', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-08-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-08-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-08-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-08-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    117, '2014-08-25 9:30:20', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-05-05 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-05-12 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-05-19 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-05-26 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-05-26 9:30:29', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-06-02 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-06-09 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-06-16 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-06-23 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-06-30 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-06-30 9:30:35', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-07-07 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-07-14 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-07-14 9:30:20', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-07-21 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-07-28 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-08-04 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-08-11 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-08-11 9:30:28', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-08-18 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    120, '2014-08-25 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-05-05 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-05-12 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-05-19 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-05-19 9:30:24', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-05-26 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-05-26 9:30:39', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-06-02 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-06-09 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-06-16 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-06-23 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-06-30 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-06-30 9:30:21', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-06-30 9:30:48', 'email_clickthrough', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-07-07 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-07-07 9:30:30', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-07-14 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-07-21 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-07-28 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-08-04 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-08-04 9:30:29', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-08-04 9:30:56', 'email_clickthrough', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-08-11 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-08-18 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-08-18 9:30:22', 'email_open', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    124, '2014-08-25 9:30:00', 'sent_weekly_digest', 
+    3
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-05-05 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-05-12 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-05-12 9:30:30', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-05-12 9:30:58', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-05-19 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-05-26 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-05-26 9:30:46', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-05-26 9:31:15', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-06-02 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-06-09 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-06-16 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-06-23 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-06-30 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-07-07 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-07-14 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-07-21 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-07-21 9:30:26', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-07-21 9:30:55', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-07-28 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-07-28 9:30:26', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-08-04 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-08-04 9:30:22', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-08-04 9:30:52', 'email_clickthrough', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-08-11 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-08-18 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-08-18 9:30:14', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    128, '2014-08-25 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-05-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-05-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-05-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-05-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-05-26 9:30:33', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-05-26 9:31:08', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-06-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-06-02 9:30:34', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-06-02 9:31:04', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-06-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-06-09 9:30:20', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-06-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-06-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-06-30 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-07-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-07-07 9:30:33', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-07-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-07-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-07-21 9:30:24', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-07-21 9:30:59', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-07-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-07-28 9:30:28', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-08-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-08-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-08-11 9:30:30', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-08-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-08-18 9:30:31', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-08-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-08-25 9:30:22', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    134, '2014-08-25 9:30:57', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-05-06 9:30:27', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-05-06 9:31:00', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-05-20 9:30:22', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-05-27 9:30:29', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-05-27 9:30:56', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-07-22 9:30:19', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-08-19 9:30:24', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    136, '2014-08-26 9:30:28', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-05-13 9:30:30', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-06-10 9:30:22', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-06-17 9:30:31', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-08-19 9:30:19', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    138, '2014-08-26 9:30:23', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-05-06 9:30:26', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-05-13 9:30:27', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-05-13 9:31:00', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    140, '2014-08-26 9:30:25', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-05-13 9:30:27', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-05-27 9:30:28', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-07-29 9:30:26', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    145, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-05-06 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-05-13 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-05-20 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-05-27 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-06-03 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-06-03 9:30:35', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-06-03 9:30:58', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-06-10 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-06-17 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-06-17 9:30:31', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-06-24 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-07-01 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-07-08 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-07-08 9:30:26', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-07-08 9:30:55', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-07-15 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-07-15 9:30:34', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-07-15 9:31:09', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-07-22 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-07-22 9:30:23', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-07-29 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-08-05 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-08-12 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-08-19 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-08-19 9:30:23', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-08-19 9:30:59', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    150, '2014-08-26 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-05-07 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-05-14 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-05-21 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-05-21 9:30:30', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-05-28 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-06-04 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-06-11 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-06-11 9:30:26', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-06-18 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-06-25 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-07-02 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-07-02 9:30:31', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-07-09 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-07-09 9:30:41', 'email_open', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-07-16 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-07-23 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-07-30 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-08-06 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-08-13 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-08-20 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    155, '2014-08-27 9:30:00', 'sent_weekly_digest', 
+    2
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-05-07 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-05-14 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-05-21 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-05-21 9:30:30', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-05-28 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-06-04 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-06-11 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-06-18 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-06-18 9:30:27', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-06-18 9:31:02', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-06-25 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-06-25 9:30:26', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-07-02 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-07-09 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-07-09 9:30:24', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-07-09 9:30:54', 'email_clickthrough', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-07-16 9:30:00', 'sent_weekly_digest', 
+    1
+  );
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-07-16 9:30:34', 'email_open', 
+    1
+  );
+/* INSERT QUERY */
+INSERT INTO email_events(
+  user_id, occurred_at, action, user_type
+) 
+VALUES 
+  (
+    163, '2014-07-23 9:30:00', 'sent_weekly_digest', 
+    1
+  );
