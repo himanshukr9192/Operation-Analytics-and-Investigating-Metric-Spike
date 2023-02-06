@@ -19,6 +19,8 @@ Duplicate rows: Rows that have the same value present in them.
 Task: Some duplicate rows in the data. 
 
 
+
+
 Case Study 2 (Investigating metric spike)
 
 User Engagement: To measure the activeness of a user. Measuring if the user finds quality in a product/service.
