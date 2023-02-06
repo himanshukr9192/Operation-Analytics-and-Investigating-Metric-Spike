@@ -5,6 +5,7 @@ Being one of the most important parts of a company, this kind of analysis is fur
 
 
 Case Study 1 (Job Data)
+
 Number of jobs reviewed: Amount of jobs reviewed over time.
 Task: Calculating the number of jobs reviewed per hour per day for November 2020?
 
@@ -19,6 +20,7 @@ Task: Some duplicate rows in the data.
 
 
 Case Study 2 (Investigating metric spike)
+
 User Engagement: To measure the activeness of a user. Measuring if the user finds quality in a product/service.
 Task: Calculating the weekly user engagement?
 
